@@ -8,3 +8,4 @@ const nuevaString = string ;
 const nuevoNum = 7;
 const nuevoBool = true; 
 const nuevaResta = 10 - 5 === 5;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
