@@ -24,3 +24,11 @@ function resta(x, y) {
   return x-y;
 }
 
+function multiplica(x, y) {
+  return x * y;
+}
+
+function divide(x, y) {
+  return x/y;
+}
+
