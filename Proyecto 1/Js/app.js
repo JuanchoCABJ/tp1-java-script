@@ -94,3 +94,20 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
  return Math.pow(num, exponent);
 }
+
+function redondearNumero(num) {
+  return Math.round(num);
+}
+
+function redondearHaciaArriba(num) {
+  return Math.ceil(num);
+}
+
+function agregarSimboloExclamacion(str) {
+  return str + "!";
+}
+
+function combinarNombres(nombre, apellido) {
+  return nombre + " " + apellido;
+}
+
