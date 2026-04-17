@@ -111,3 +111,43 @@ function combinarNombres(nombre, apellido) {
   return nombre + " " + apellido;
 }
 
+function obtenerSaludo(nombre) {
+  return "Hola"+ " "+ nombre + "!";
+}
+
+function obtenerAreaRectangulo(alto, ancho) {
+  return alto * ancho;
+}
+
+// No modificar nada debajo de esta línea
+// --------------------------------
+
+module.exports = {
+  nuevaString,
+  nuevoNum,
+  nuevoBool,
+  nuevaResta,
+  nuevaMultiplicacion,
+  nuevoModulo,
+  devolverString,
+  tienenMismaLongitud,
+  sonIguales,
+  menosQueNoventa,
+  mayorQueCincuenta,
+  suma,
+  resta,
+  divide,
+  multiplica,
+  obtenerResto,
+  esPar,
+  esImpar,
+  elevarAlCuadrado,
+  elevarAlCubo,
+  elevar,
+  redondearNumero,
+  redondearHaciaArriba,
+  agregarSimboloExclamacion,
+  combinarNombres,
+  obtenerSaludo,
+  obtenerAreaRectangulo,
+};
