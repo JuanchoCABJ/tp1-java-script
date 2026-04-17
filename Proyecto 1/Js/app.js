@@ -63,3 +63,23 @@ function mayorQueCincuenta(num) {
 return false;
   }
 }
+
+function obtenerResto(x, y) {
+  return x % y;
+}
+
+function esPar(num) {
+  if (num % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function esImpar(num) {
+  if (num % 2 !== 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
