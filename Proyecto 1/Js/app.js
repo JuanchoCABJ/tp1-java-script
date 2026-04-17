@@ -12,7 +12,6 @@ const nuevaMultiplicacion = 10 * 4 === 40 ;
 const nuevoModulo = 21 % 5 === 1;
 
 function devolverString(str) {
-    const nuevaString = "Juan";
 return (str);
 }
 
@@ -82,4 +81,16 @@ function esImpar(num) {
   } else {
     return false;
   }
+}
+
+function elevarAlCuadrado(num) {
+  return Math.pow(num, 2);
+}
+
+function elevarAlCubo(num) {
+  return Math.pow(num, 3);
+}
+
+function elevar(num, exponent) {
+ return Math.pow(num, exponent);
 }
